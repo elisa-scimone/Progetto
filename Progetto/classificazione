@@ -1,0 +1,42 @@
+Per la gestione delle attività dell'azienda di costruzioni, potresti creare le seguenti classi:
+
+1. Classe `Zona`:
+   - Proprietà:
+     - Codice univoco della zona
+     - Lista degli stallaggi presenti nella zona
+     - Lista delle zone adiacenti
+   - Metodi:
+     - Aggiungi uno stallaggio alla zona
+     - Aggiungi una zona adiacente
+     - Ottenere il numero di stallaggi nella zona
+
+2. Classe `Stallaggio`:
+   - Proprietà:
+     - Codice univoco dello stallaggio
+     - Stato (fondamenta, in costruzione, terminato)
+     - Tipo (singolo, multiplo)
+     - Lista dei lavoratori nello stallaggio
+   - Metodi:
+     - Aggiungi un lavoratore allo stallaggio
+     - Ottenere lo stato dello stallaggio
+     - Ottenere il tipo dello stallaggio
+     - Ottenere il numero di lavoratori nello stallaggio
+
+3. Classe `Lavoratore`:
+   - Proprietà:
+     - Categoria (tecnico, carpentiere, falegname)
+   - Metodi:
+     - Ottenere la categoria del lavoratore
+
+4. Classe `CostruzioniManager`:
+   - Proprietà:
+     - Lista delle zone presenti nella pianura di Hyrule
+   - Metodi:
+     - Aggiungi una nuova zona alla pianura di Hyrule
+     - Trova lo stallaggio con il numero maggiore di lavoratori
+     - Conta il numero di stallaggi con uno specifico stato
+     - Conta il numero di stallaggi con almeno un certo numero di lavoratori di una specifica categoria
+     - Conta il numero di stallaggi per ogni zona
+     - Trova il numero minimo e massimo di lavoratori di una specifica categoria tra tutti gli stallaggi
+     - Verifica le condizioni del Task 2 e restituisce YES o NO
+     - Verifica le condizioni del Task 3 e restituisce VALID o NOT VALIinterno delle classi per adattarle alle specifiche esigenze dell'applicazione.
