@@ -1,0 +1,9 @@
+z1 -> z2,z3
+z2 -> z1,z3
+z3 -> z1,z2
+s1 z2 fondamenta singolo 5 0 0
+s2 z2 costruzione multiplo 2 3 3
+s3 z2 terminato singolo 1 8 12
+s4 z1 fondamenta singolo 2 0 0
+s5 z1 fondamenta singolo 3 0 0
+s6 z3 terminato singolo 8 16 24
